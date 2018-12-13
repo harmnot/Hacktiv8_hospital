@@ -190,3 +190,56 @@ li {
   font-size: 15px;
   font-style: italic;
 }
+
+
+/* media queries */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .caption h2 {
+    font-size: 20.7px;
+    line-height: 30px;
+  }
+
+  .caption p {
+    font-size: 16px;
+  }
+
+  section {
+
+    line-height: 24.2px;
+  }
+  section>li {
+    padding: 4px;
+    font-size: 15.6px;
+  }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .caption {
+    line-height: 20px;
+    width: 100%;
+    padding: 3px;
+  }
+
+  .caption p {
+    font-size: 15px;
+  }
+
+  .caption h2 {
+    line-height: 29px;
+    margin-bottom: 8.9px;
+  }
+  section {
+    flex-direction: column;
+
+  }
+
+  section {
+    line-height: 22.2px;
+  }
+  section>li {
+    padding: 4px;
+    font-size: 14.95px;
+  }
+}
