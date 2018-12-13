@@ -365,13 +365,17 @@ li>p {
 .p_about {
   margin: 20px 0;
   text-align: justify;
+  font-family: 'Karla', sans-serif;
 }
 .founder {
   margin: 0 50px;
   height: 220px;
-  background-color: #FFC837;
   display: inline-flex;
   border-radius: 20px;
+  background: #FF8008;
+  background: -webkit-linear-gradient(to right, #FFC837, #FF8008);
+  background: linear-gradient(to right, #FFC837, #FF8008);
+  font-family: 'Karla', sans-serif;
 }
 
 .founder img {
@@ -382,4 +386,5 @@ li>p {
 
 .founder li {
   margin: 10px 10px;
+
 }
