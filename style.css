@@ -190,8 +190,19 @@ li {
   font-size: 15px;
   font-style: italic;
 }
+#li3 a{
+  text-decoration: none;
+  color: #0a0109;
 
+}
+#li3 {
+  display: none;
+}
 
+#li3 a:hover{
+  padding: 3px;
+  border-bottom: 2px solid;
+}
 /* media queries */
 @media (min-width: 768px) and (max-width: 1024px) {
   .caption h2 {
@@ -241,5 +252,8 @@ li {
   section>li {
     padding: 4px;
     font-size: 14.95px;
+  }
+  #li3 {
+    display: inline;
   }
 }
