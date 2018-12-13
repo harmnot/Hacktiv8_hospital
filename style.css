@@ -61,7 +61,16 @@
 }
 
 #img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)), url("/assets/hospital.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)), url("./assets/hospital.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 640px;
+  /* height: 100vh; */
+}
+
+#img_aboutus {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)), url("./assets/building.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -268,4 +277,32 @@ li>p {
   #li3 {
     display: inline;
   }
+}
+
+.about_konten {
+  display: block;
+  margin: 20px 200px;
+  line-height: 25px;
+}
+
+.p_about {
+  margin: 20px 0;
+  text-align: justify;
+}
+.founder {
+  margin: 0 50px;
+  height: 220px;
+  background-color: #FFC837;
+  display: inline-flex;
+  border-radius: 20px;
+}
+
+.founder img {
+  height: 200px;
+  width: 250px;
+  border-radius: 15px;
+}
+
+.founder li {
+  margin: 10px 10px;
 }
