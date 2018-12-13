@@ -5,9 +5,10 @@
 }
 
 .header {
+  padding: 14px;
   overflow: hidden;
   background-color: #fff;
-  height: 50px;
+  height: 80px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -45,7 +46,7 @@
 
 /* Change color on hover */
 .navbar>a:hover {
-  background-color: #ddd;
+  background-color: rgb(247, 242, 0);
   color: black;
 }
 
@@ -60,7 +61,7 @@
 }
 
 #img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)), url(https://bit.ly/2RUcn0q);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)), url("/assets/hospital.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -87,11 +88,13 @@
   font-size: 17.3px;
 }
 
-#quate {
+#quote {
   text-align: center;
   font-family: 'Karla', sans-serif;
+  font-style: italic;
   font-size: 28.7px;
   margin: 27px auto;
+  font-weight: bolder;
 }
 
 #greatest {
@@ -162,9 +165,18 @@ li {
   list-style: none;
 }
 
+li>p {
+  padding: 10%;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+
+}
+
 #li2 {
   line-height: 22px;
   border: 2px solid;
+  box-shadow: 1px 1px grey;
   padding: 4px;
 }
 
