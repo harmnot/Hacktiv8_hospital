@@ -401,7 +401,7 @@ li>p {
   color: #FF8008;
   font-family: 'Karla', sans-serif;
   padding-left: 40px;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 #fasilitas-keterangan{
@@ -417,11 +417,12 @@ li>p {
 #fasilitas-gambar {
   height: 200px;
   width: 300px;
-
+  margin: 10px 20px;
 }
 
 #fasilitas-ketgambar {
-  box-align: center;
+  text-align: center;
+  padding-top: 0;
 }
 .about_konten {
   display: block;
@@ -449,4 +450,8 @@ li>p {
 
 .founder li {
   margin: 10px 10px;
+}
+
+.img_fasilitas {
+  display: inline-flex;
 }
