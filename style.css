@@ -78,15 +78,6 @@
   /* height: 100vh; */
 }
 
-#img_facilities {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)), url("./assets/facilities_img.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 640px;
-  /* height: 100vh; */
-}
-
 .caption {
   position: absolute;
   top: 50%;
@@ -134,9 +125,9 @@ section>li {
   flex: 0 50%;
   /* border: red solid; */
   box-sizing: border-box;
-  padding: 9px;
+  padding: 14px;
   font-family: 'Karla', sans-serif;
-  font-size: 22px;
+  /* font-size: 2px; */
   text-align: center;
   /* margin: 1px; */
 }
@@ -144,6 +135,57 @@ section>li {
 .sectionlist {
   text-align: center;
 }
+
+.sectionlist p{
+  padding: 20px;
+ font-family: 'Karla', sans-serif;
+ font-size: 20px;
+ line-height: 27px;
+}
+
+
+.flex0 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  width: 73%;
+  margin: 10px auto;
+}
+
+.flex0 > div {
+/*   background: pink; */
+}
+ .doctors {
+   width: 40%;
+ }
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  width: 45%;
+}
+
+.hh2 {
+  text-align: right;
+  margin: 10px;
+  background-color: #F5F7FA;
+  padding: 5px;
+  font-family: 'Karla', sans-serif;
+}
+
+.hh3 {
+  text-align: left;
+  margin: 10px;
+  background-color: #F5F7FA;
+  padding: 5px;
+  font-family: 'Karla', sans-serif;
+}
+
 
 /* footer css */
 .footer {
@@ -253,6 +295,7 @@ li>p {
     font-size: 15.6px;
   }
 
+
 }
 
 
@@ -265,6 +308,7 @@ li>p {
 
   .caption p {
     font-size: 15px;
+    /* letter-spacing: normal; */
   }
 
   .caption h2 {
@@ -273,19 +317,76 @@ li>p {
   }
   section {
     flex-direction: column;
-
   }
 
   section {
     line-height: 22.2px;
+    /* letter-spacing: normal; */
   }
   section>li {
     padding: 4px;
-    font-size: 14.95px;
+    font-size: 12.95px;
   }
   #li3 {
     display: inline;
   }
+
+  .column1{
+
+  }
+  .hh2{
+    font-size: 0.7em;
+  }
+  .hh3{
+  font-size: 0.7em;
+  }
+
+  .doctors {
+    width: 93%;
+  }
+
+  .sectionlist p {
+    font-size: 17px;
+    padding: 10px;
+   line-height: 18px;
+  }
+  .sectionlist {
+    line-height: 18px;
+    margin: 18px 4px;
+  }
+}
+
+.about_konten {
+  display: block;
+  margin: 20px 200px;
+  line-height: 25px;
+}
+
+.p_about {
+  margin: 20px 0;
+  text-align: justify;
+  font-family: 'Karla', sans-serif;
+}
+.founder {
+  margin: 0 50px;
+  height: 220px;
+  display: inline-flex;
+  border-radius: 20px;
+  background: #FF8008;
+  background: -webkit-linear-gradient(to right, #FFC837, #FF8008);
+  background: linear-gradient(to right, #FFC837, #FF8008);
+  font-family: 'Karla', sans-serif;
+}
+
+.founder img {
+  height: 200px;
+  width: 250px;
+  border-radius: 15px;
+}
+
+.founder li {
+  margin: 10px 10px;
+
 }
 
 .fasilitas {
