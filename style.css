@@ -69,6 +69,14 @@
   /* height: 100vh; */
 }
 
+#img_facilities {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)), url("./assets/facilities_img.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 640px;
+  /* height: 100vh; */
+}
 #img_aboutus {
   background-image: linear-gradient(rgba(0, 0, 0, 0.43), rgba(0, 0, 0, 0.43)), url("./assets/building.jpeg");
   background-repeat: no-repeat;
