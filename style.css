@@ -98,11 +98,11 @@
   text-transform: uppercase;
   line-height: 52px;
   font-weight: 600;
-  font-size: 29px;
+  font-size: 35px;
 }
 
 .caption p {
-  font-size: 17.3px;
+  font-size: 23.3px;
 }
 
 #quote {
@@ -320,7 +320,12 @@ li>p {
   }
 
   .caption h2 {
+<<<<<<< HEAD
     line-height: 33px;
+=======
+    font-size: 28px;
+    line-height: 29px;
+>>>>>>> 3be322a4d0687df68496440997aec30c4dfed305
     margin-bottom: 8.9px;
   }
   section {
@@ -361,6 +366,11 @@ li>p {
   .sectionlist {
     line-height: 18px;
     margin: 18px 4px;
+  }
+
+  #quote {
+    font-size: 22px;
+    padding: 3px;
   }
 }
 
@@ -451,7 +461,10 @@ li>p {
 .founder li {
   margin: 10px 10px;
 }
+<<<<<<< HEAD
+=======
 
 .img_fasilitas {
   display: inline-flex;
 }
+>>>>>>> 9fdbd2ffd4f7b74c24dacb789407f7889a311e3a
